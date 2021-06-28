@@ -1,0 +1,1099 @@
+@import url("../../theme/Default/style.css");
+@import url('https://fonts.googleapis.com/css?family=Lora:700');
+
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+	
+body{
+	background:url(../../theme/aozlotto/imgs/bg7.jpg) #000 bottom  fixed;
+	background-size:cover;
+	}
+	
+#page-content{
+	font-size:16px;
+	color:#fff;
+  text-align:justify;
+  padding:10px;
+}
+#theme-title{
+	width:100%;
+}
+
+#theme-title .title {
+	text-align:center;color:#fff;
+	padding:10px;
+	font-size:20px;
+	font-weight:bold;
+	font-family: 'Lora', serif;
+	}
+
+#theme-menu{
+	float:right;
+	}
+	
+	
+.site-content{
+	min-height:820px;
+	}
+
+
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    background-color: #b40404;
+  }
+  
+#sidebar ul li a.dropdown {
+    display: inline-block !important;
+}
+
+footer{
+	color:#999;
+	padding:10px 5px;
+	background: #191919 !important;
+	}
+
+
+footer .footer-link a img{
+	margin-bottom:15px;
+	width:120px;
+	}
+
+.btn, .btn:hover{
+	color:#fff;
+	border-color:#666 !important;
+	background: #292929 !important;
+  background: -moz-linear-gradient(top, black, #3c3c3c 1px, #292929 25px) !important;
+  background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929)) !important;
+}
+
+a, a:hover, a:visited{color:#fff}
+
+
+
+
+/*================result style=====================*/
+
+.col-sm-2 button{margin-bottom:10px !important;}
+
+#live-4d{
+	margin-left:-0.7%;
+	}
+
+#live-4d .col-sm-12 {
+	margin-top:10px;
+	padding-left:0px !important;
+	}
+	
+#live-4d .fb-like {
+	position:absolute;
+	right:-15px;
+	}
+	
+div#live {
+     background: url("../1535/uploads/live.gif") no-repeat;
+     width: 8px ;
+     height: 8px ;
+}	
+
+span#live{
+	background: url("../1535/uploads/live.gif") no-repeat;
+     width: 8px ;
+     height: 8px ;
+}
+
+#past-4d{
+	margin-left:-2%;
+	}
+
+#past-4d div#live{
+	display:none;
+	}
+	
+#past-4d .fb-like {
+	position:absolute;
+	right:-15px;
+	}
+	
+#past-4d label{
+	color:#fff;
+	}
+
+
+#past-4d #daterow{
+	margin: -15px auto 25px;
+	text-align:center;
+	border:#333 solid 1px;
+	display:block;
+	width:240px;
+	padding:10px;
+	background:rgba(255,255,255,0.1);
+}
+
+#past-4d #daterow input{
+	border-radius:3px !important;
+	border:none;
+	padding:4px 0px 4px 5px;
+	width:100px;
+	margin-left:5px;
+}
+	
+	
+#past-4d #Magnum .panel-body .logo #datetime .control-label,
+#past-4d #Sabah .panel-body .logo #datetime .control-label{
+	color:#333;
+}	
+
+.panel {
+    background-color: #2e2e2e;  
+	border-radius: 5px;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    font-size:11px;
+    font-weight:bold; 
+	height:30px;
+	text-align: left;
+	padding-left:18px;
+}
+
+.panel-body{
+	color:#fff;
+	padding-top:0px !important;
+	}
+
+.panel-body .logo{
+	padding-bottom:10px;
+	height:40px;
+	}
+
+.panel-body .logo .col-sm-8{
+	padding:0px !important
+	}
+
+.panel-body .logo #datetime{
+	text-align:right;
+	color:#fff;
+}
+
+.panel-body .logo #datetime .col-sm-12{
+	margin:0px !important
+	}
+	
+.panel-body #TopThree,.panel-body #Special,.panel-body #Consolation{
+  padding:0px 15px 0px;
+  line-height:28px;
+  margin:0px 0px 0px;
+  font-size:20px;
+}
+
+.panel-body #TopThree label,.panel-body #Special label, .panel-body #Consolation label{
+  background:#1c1c1c;
+  width:100%;
+  border:#333 solid 1px;
+  margin-bottom: 0px !important;
+  padding:2px;
+  font-size:14px;
+  font-weight:bold;
+}
+	
+.panel-body #TopThree .col-sm-4{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+
+/*=================AOZ=====================*/
+#AOZ .panel {
+    border: 3px solid #d8d8d8 !important;
+}
+
+#AOZ .panel-default>.panel-heading {
+    background-color: #d8d8d8 !important;
+    border-color: #d8d8d8 !important;
+    color:#333 !important;
+}
+
+#AOZ .panel-body .logo #datetime{
+	color:#333;
+}
+
+#AOZ .panel-body .logo{
+	background:#d8d8d8 !important;
+	padding-bottom:10px;
+	}
+
+#AOZ .panel-body .logo #AOZimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_aoz.png)no-repeat;
+	width:80px ;
+  height:40px ;
+}
+
+/*=================magnum=====================*/
+#Magnum .panel {
+    border: 3px solid #f2bc00 !important;
+}
+
+#Magnum .panel-default>.panel-heading {
+    background-color: #f2bc00 !important;
+    border-color: #f2bc00 !important;
+    color:#333 !important;
+}
+
+#Magnum .panel-body .logo #datetime{
+	color:#333;
+}
+
+#Magnum .panel-body .logo{
+	background:#f2bc00 !important;
+	padding-bottom:10px;
+	}
+
+#Magnum .panel-body .logo #Magnumimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_magnum.png)no-repeat #333;
+	width:80px ;
+  height:40px ;
+}
+
+
+
+/*=================PMP=====================*/
+#PMP .panel {
+    border: 3px solid #148ea4 !important;
+}
+
+#PMP .panel-default>.panel-heading {
+    background-color: #148ea4 !important;
+    border-color: #148ea4 !important;
+}
+
+#PMP .panel-body .logo{
+	background:#148ea4 !important;
+	padding-bottom:10px;
+	}
+
+#PMP .panel-body .logo #PMPimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_damacai.png)no-repeat;
+	width:80px ;
+  height:40px ;
+}
+
+
+
+
+/*=================Toto=====================*/
+#Toto .panel {
+    border: 3px solid #dd0000 !important;
+}
+
+#Toto .panel-default>.panel-heading {
+    background-color: #dd0000 !important;
+    border-color: #dd0000 !important;
+}
+
+#Toto .panel-body .logo{
+	background:#dd0000 !important;
+	padding-bottom:10px;
+	}
+
+#Toto .panel-body .logo #Totoimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_toto.png)no-repeat;
+	width:80px ;
+  height:40px ;
+}
+
+
+/*=================Singapore=====================*/
+#Singapore .panel {
+    border: 3px solid #12689a !important;
+}
+
+#Singapore .panel-default>.panel-heading {
+    background-color: #12689a !important;
+    border-color: #12689a !important;
+}
+
+#Singapore .panel-body .logo{
+	background:#12689a !important;
+	padding-bottom:10px;
+	}
+
+#Singapore .panel-body .logo #Singaporeimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_sgpool.png)no-repeat;
+	width:80px ;
+  height:40px ;
+}
+
+
+
+/*=================Sabah=====================*/
+#Sabah .panel {
+    border: 3px solid #eee !important;
+}
+
+#Sabah .panel-default>.panel-heading {
+    background-color: #eee !important;
+    border-color: #eee !important;
+    color:#333;
+}
+
+#Sabah .panel-body .logo{
+	background:#eee !important;
+	padding-bottom:10px;
+	}
+
+#Sabah .panel-body .logo #datetime{
+	color:#333;
+}
+
+#Sabah .panel-body .logo #Sabahimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_sabah88.png)no-repeat;
+	width:80px ;
+  height:40px ;
+}
+
+
+
+/*=================Sandakan=====================*/
+#Sandakan .panel {
+    border: 3px solid #2f9405 !important;
+}
+
+#Sandakan .panel-default>.panel-heading {
+    background-color: #2f9405 !important;
+    border-color: #2f9405 !important;
+}
+
+#Sandakan .panel-body .logo{
+	background:#2f9405 !important;
+	padding-bottom:10px;
+	}
+
+#Sandakan .panel-body .logo #Sandakanimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_stc.png)no-repeat;
+	width:80px ;
+  height:40px ;
+}
+
+
+
+
+/*=================Sarawak=====================*/
+#Sarawak .panel {
+    border: 3px solid #094405 !important;
+}
+
+#Sarawak .panel-default>.panel-heading {
+    background-color: #094405 !important;
+    border-color: #094405 !important;
+}
+
+#Sarawak .panel-body .logo{
+	background:#094405 !important;
+	padding-bottom:10px;
+	}
+
+#Sarawak .panel-body .logo #Sarawakimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_cashsweep.png)no-repeat;
+	width:80px ;
+  height:40px ;
+}
+
+
+
+
+/*=================GDLotto=====================*/
+#GDLotto .panel {
+    border: 3px solid #95650a !important;
+}
+
+#GDLotto .panel-default>.panel-heading {
+    background-color: #95650a !important;
+    border-color: #95650a !important;
+}
+
+#GDLotto .panel-body .logo{
+	background:#95650a !important;
+	padding-bottom:10px;
+	}
+
+#GDLotto .panel-body .logo #GDLottoimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_gdlotto.png)no-repeat;
+	width:80px ;
+  height:40px ;
+}
+
+
+/*=================Perdana=====================*/
+#Perdana .panel {
+    border: 3px solid #777 !important;
+}
+
+#Perdana .panel-default>.panel-heading {
+    background-color: #777 !important;
+    border-color: #777 !important;
+}
+
+#Perdana .panel-body .logo{
+	background:#777 !important;
+	padding-bottom:10px;
+	}
+
+#Perdana .panel-body .logo #Perdanaimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_perdana.png)no-repeat;
+	width:80px ;
+  height:40px ;
+}
+
+
+/*=================HariHariLucky=====================*/
+#LuckyHari-Hari .panel {
+    border: 3px solid #00aced !important;
+}
+
+#LuckyHari-Hari .panel-default>.panel-heading {
+    background-color: #00aced !important;
+    border-color: #00aced !important;
+}
+
+#LuckyHari-Hari .panel-body .logo{
+	background:#00aced !important;
+	padding-bottom:10px;
+	}
+
+#LuckyHari-Hari .panel-body .logo #LuckyHari-Hariimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_luckyharihari.png)no-repeat;
+	width:80px ;
+  height:40px ;
+}
+
+
+/*=================thv88=====================*/
+#THV88 .panel {
+    border: 3px solid #dd4b39!important;
+}
+
+#THV88 .panel-default>.panel-heading {
+    background-color: #dd4b39 !important;
+    border-color: #dd4b39!important;
+}
+
+#THV88 .panel-body .logo{
+	background:#dd4b39 !important;
+	padding-bottom:10px;
+	}
+
+#THV88 .panel-body .logo #THV88img{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_thv88.png)no-repeat;
+	width:80px ;
+  height:40px ;
+}
+
+
+
+/*=================GOOD4D=====================*/
+#GOOD4D .panel {
+    border: 3px solid #ffd45e !important;
+}
+
+#GOOD4D .panel-default>.panel-heading {
+    background-color: #ffd45e !important;
+    border-color: #ffd45e !important;
+    color:#333 !important;
+}
+
+#GOOD4D .panel-body .logo #datetime{
+	color:#333;
+}
+
+#GOOD4D .panel-body .logo{
+	background:#ffd45e !important;
+	padding-bottom:10px;
+	}
+
+#GOOD4D .panel-body .logo #GOOD4Dimg{
+	top:-5px;
+	position:absolute;
+	background:url(../../theme/aozlotto/imgs/4D_good4d.png)no-repeat ;
+	width:105px ;
+  height:40px ;
+}
+
+
+
+/*=================result history pop up=====================*/
+#title h1.title {text-align:center;color:#fff;}
+#content {color:#fff;}
+#content table{font-size:15px}
+#content thead {background-color:#dd0000;color:#fff}
+#content .table-striped>tbody>tr:nth-of-type(odd){background-color:#333}
+#content .table-striped>tbody>tr:nth-of-type(even){background-color:#444}
+#aMagnumimg {	background:url(../../theme/aozlotto/imgs/lottery/logo_magnumc81e.png?2)no-repeat;width:50px ;height:50px ;text-align:center;margin:auto;background-size: 50px 50px ;}
+#aPMPimg {	background:url(../../theme/aozlotto/imgs/lottery/logo_damacaieccb.png?3)no-repeat;width:50px ;height:50px ;text-align:center;margin:auto;background-size: 50px 50px ;}
+#aTotoimg {	background:url(../../theme/aozlotto/imgs/lottery/logo_totoc81e.png?2)no-repeat;width:50px ;height:50px ;text-align:center;margin:auto;background-size: 50px 50px ;}
+#aSingaporeimg {	background:url(../../theme/aozlotto/imgs/lottery/logo_singaporec81e.png?2)no-repeat;width:50px ;height:50px ;text-align:center;margin:auto;background-size: 50px 50px ;}
+#aSabahimg {	background:url(../../theme/aozlotto/imgs/lottery/logo_diriwan88c81e.png?2)no-repeat;width:50px ;height:50px ;text-align:center;margin:auto;background-size: 50px 50px ;}
+#aSandakanimg {	background:url(../../theme/aozlotto/imgs/lottery/logo_stc4dc81e.png?2)no-repeat;width:50px ;height:50px  ;text-align:center;margin:auto;background-size: 50px 50px ;}
+#aSarawakimg  {	background:url(../../theme/aozlotto/imgs/lottery/logo_cashsweepc81e.png?2)no-repeat;width:50px ;height:50px  ;text-align:center;margin:auto;background-size: 50px 50px ;}
+#aGDLottoimg {	background:url(../../theme/aozlotto/imgs/lottery/logo_granddragonc81e.png?2)no-repeat;width:50px ;height:50px  ;text-align:center;margin:auto;background-size: 50px 50px ;}
+#aPerdanaimg {	background:url(../../theme/aozlotto/imgs/lottery/logo_perdanac20a.png?12)no-repeat;width:50px ;height:50px ;text-align:center;margin:auto;background-size: 50px 50px ;}
+#aLuckyHari-Hariimg {	background:url(../../theme/aozlotto/imgs/lottery/logo_luckyc81e.png?2)no-repeat;width:50px ;height:50px ;text-align:center;margin:auto;background-size: 50px 50px ;}
+#aGOOD4Dimg {	background:url(../../theme/aozlotto/imgs/lottery/logo_good4dc81e.png?2)no-repeat;width:50px ;height:50px ;text-align:center;margin:auto;background-size: 50px 50px ;}
+#aTHV88img {	background:url(../../theme/aozlotto/imgs/lottery/logo_thv88c81e.html?2)no-repeat;width:50px ;height:50px  ;text-align:center;margin:auto;background-size: 50px 50px ;}
+
+
+/*=================Contact=====================*/
+.contact .col-md-5 img {width:100%;} 
+.contact .col-md-7 {padding:15px;margin-top:0px 10px 20px;}
+.contact .col-md-7 .col-xs-4{ width:31% !important;min-height:160px;text-align:center;border:#c62021 solid 6px !important;background:rgba(0,0,0,0.8);
+	margin:5px;padding:30px 10px;background:url(../../theme/aozlotto/imgs/box1.html)top center;color:#fff;background-size:cover;}
+.contact .col-md-7 .col-xs-4 i {font-size:40px;color:#c62021}
+.contact .col-md-7 .col-xs-4 a {color:#fff;}
+.contact .col-md-7 .col-xs-4:hover i {font-size:43px;color:#fff}
+.contact .col-md-7 .col-xs-4 p {margin-top:20px;width:100%;font-size:11px;font-weight:400}
+.contact h2 {font-size:28px;text-align:center;color:#fff;	font-weight:bold;font-family: 'Lora', serif;}
+.contact h3 {font-size:16px;text-align:center;color:#fff;}
+
+.form-bg {background:#222;padding:15px;border-radius:5px;margin:10px;}
+.form-bg .sendbtn input{background:#c62021;border-radius:5px;padding:10px;border:none;color:#fff;font-weight:bold;}
+.form-bg .form-group label {color:#fff}
+
+
+.pstable {
+    text-align: left;
+    font-size: 12px;
+    color: #000;
+    width: 100%;
+    padding: 10px 35px;
+    margin-bottom:40px;
+}
+
+.pstdtitle {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #333;
+    color: #fff;
+    vertical-align: middle;
+    padding: 10px 6px;
+}
+
+.pstddetails {
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+    border-color: #c5c5c5;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    background:#fff;
+}
+
+p.infocontenttitle {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #b40404;
+    color: #fff;
+    line-height: 1.5;
+    padding: 0 15px;
+}
+
+
+
+#footer-logo img{width:35px;}
+#footer-logo button {margin:4px 2px;font-size:12px;min-height:35px;}
+
+@media all 
+and (max-width: 767px), only screen and (-webkit-min-device-pixel-ratio: 2) 
+and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) 
+and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) 
+and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) 
+and (max-width: 1024px), only screen and (min-resolution: 192dpi) 
+and (max-width: 1024px), only screen and (min-resolution: 2dppx) 
+and (max-width: 1024px) {
+	#theme-frame{
+		width:99%;
+	}
+	#theme-frame-panel{ display:block; width:100%;}
+	.themetbl .cellbox { list-style:none; display:table; padding:0px; margin:0px; width:90%; height:100%; min-height:350px;}
+	.themetbl .cellbox > li {display:block; vertical-align:top; }
+	.themetbl .cellbox li#theme-content { padding:5px 10px; text-align:justify; width:100%; height:100%; }
+	.themetbl .cellbox li#theme-frame-panel {width:200px; padding:10px 0px 10px 10px; background:#efefef;  width:100%; height:100%;  display:inline-block;}
+
+
+#live-4d {margin-left:1%;}
+#live-4d .fb-like ,#past-4d .fb-like{right:12px;top:-14px;}
+#page-live .fb-like {top:-16px;right:0px;}
+#page-live {margin-left:-2%;}
+
+.contact .col-md-7 .col-xs-4{ width:30.5% !important;min-height:160px;}
+.contact .col-md-7 .col-xs-4 p{font-size:10px;}
+
+.panel-default>.panel-heading .col-sm-8{text-align:left;}
+
+
+#footer-logo img{width:35px;}
+#footer-logo button {margin:4px 2px;font-size:12px;min-height:35px;width:85%;}
+
+.panel-body #TopThree label, .panel-body #Special label, .panel-body #Consolation label{font-size:16px;}
+.panel-body #TopThree, .panel-body #Special, .panel-body #Consolation{font-size:20px;}
+.panel-body #TopThree .col-sm-4 {width:33.33%;float:left;}
+
+.panel-body #TopThree,.panel-body #Special,.panel-body #Consolation{
+line-height:32px;
+font-size:24px;
+}
+
+.panel-body .logo #datetime .col-sm-12{
+	margin:0px 12px 0px 0px !important;
+	}
+
+.col-sm-12 {padding:0px 0px 0px 2.5%;}
+.col-sm-3 {width:25% !important;float:left;}
+.col-sm-4 {padding:0px !important;}
+
+
+#Magnum .panel-body .logo #Magnumimg, 
+#PMP .panel-body .logo #PMPimg,
+#Toto .panel-body .logo #Totoimg,
+#Singapore .panel-body .logo #Singaporeimg,
+#Sabah .panel-body .logo #Sabahimg,
+#Sandakan .panel-body .logo #Sandakanimg,
+#Sarawak .panel-body .logo #Sarawakimg,
+#GDLotto .panel-body .logo #GDLottoimg,
+#Perdana .panel-body .logo #Perdanaimg,
+#LuckyHari-Hari .panel-body .logo #LuckyHari-Hariimg,
+#THV88 .panel-body .logo #THV88img{
+	left:15px;
+}
+
+}
+
+/*THY-MODIFY*/
+.container2{
+	width:84%;
+	margin-left:8%;
+}
+
+
+#Special{width:100%}
+#Special div.row{width:100%;margin-left:0px;}
+
+#Consolation{width:100%}
+#Consolation div.row{width:100%;margin-left:0px;}
+/*THY-MODIFY Nav*/
+.navbar{
+	font-size:16px;
+	background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+}
+.navbar-brand img{
+	width:100px;
+}
+
+@media(min-width:768px){
+	#collapsibleNavbar{
+		text-align:right;
+	}
+	
+}
+
+
+/*Add for bootstrap nav dropdown */
+.navbar {
+	min-width: 450px;
+}
+
+/*For navbar text color*/
+.navbar-dark .navbar-nav .nav-link{
+	
+	font-weight:bold;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.nav-item{
+	margin-left:10px;
+	margin-top:10px;
+	background-color:rgb(51, 51, 51,0.3);
+	text-align:right;
+}
+
+.nav-item:hover{
+	background-color:rgb(191, 191, 191,0.3);
+}
+
+.navbar-nav {
+	float: right;
+	overflow: hidden;
+  }
+
+  .navbar-brand{
+	  float:left;
+  }
+  
+  .navbar-nav .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	
+	padding: 14px 16px;
+	background: none;
+	color:rgba(255,255,255,.5);
+	font-weight:bold;
+	font-family: inherit;
+	margin: 0;
+	padding-top:6px;
+  }
+
+  .navbar-nav .dropbtn:hover{
+	color:rgba(255,255,255,.8);
+  }
+  
+  
+  .dropdown-content {
+	display:none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+  #nav4D{
+	color:white;
+	text-shadow: 0px 0px 10px lightseagreen;
+}
+
+#aozcontent {
+	background-color: rgba(66, 66, 66, 0.5);
+	min-width:400px;
+	text-align: center;
+}
+
+
+#cmscontent{
+	margin-top:30px;
+}
+
+  .show{display:block;}
+
+  @media(max-width:767px){
+	.navbar{
+		position:fixed;
+		top:0px;
+		min-width:500px;
+		width:100%;
+		z-index:999;
+	}
+	.navbar-brand img{
+		width:80px;
+	}
+	.navbar-nav{
+		width:70%;
+	}
+	.dropdown-content{
+		position:relative;
+	}
+	.site-content{
+		margin-top:70px;
+	}
+}
+
+  /*THY Right Bottom Button Style*/
+  #reloadBtn {
+	position: fixed;
+	height:60px;
+	width:60px;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: lightseagreen;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 30px;
+}
+
+#reloadBtn:hover {
+	background-color: #555;
+}
+
+#toTopBtn {
+	position: fixed;
+	width:60px;
+	bottom: 210px;
+	right: 30px;
+	z-index: 99;
+	font-size: 14px;
+	font-weight:bold;
+	border: none;
+	outline: none;
+	background-color: darkgoldenrod;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+}
+
+#toTopBtn:hover {
+	background-color: #555;
+}
+
+#toAOZBtn {
+	position: fixed;
+	width:60px;
+	bottom: 150px;
+	right: 30px;
+	z-index: 99;
+	font-size: 14px;
+	font-weight:bold;
+	border: none;
+	outline: none;
+	background-color: darkgoldenrod;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+}
+
+#toAOZBtn:hover {
+	background-color: #555;
+}
+
+#to4DBtn {
+	position: fixed;
+	width:60px;
+	bottom: 90px;
+	right: 30px;
+	z-index: 99;
+	font-size: 14px;
+	font-weight:bold;
+	border: none;
+	outline: none;
+	background-color: darkgoldenrod;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+}
+
+#to4DBtn:hover {
+	background-color: #555;
+}
+@media (max-width:767px){
+	#toTopBtn{
+		right:0px;
+	}
+	#toAOZBtn{
+		right:0px;
+	}
+	#to4DBtn{
+		right:0px;
+	}
+	#reloadBtn{
+		right:0px;
+	}
+}
+
+/*Jumbotron */
+.jumbotron{
+	height:300pt;
+	background-size:cover;
+	background-image: url("../1535/uploads/banner1.png");
+}
+
+@media (max-width:767px) {
+	.jumbotron {
+		min-width: 500px;
+	}
+}
+
+/*Lotto Container */
+#main-title {
+	padding: 10px;
+	min-width:400px;
+}
+
+#main-title .title {
+	text-shadow: 10px burlywood;
+}
+
+.all-lotto-container {
+	margin-top: -30px;
+	text-align: center;
+}
+
+.lotto-container {
+	display: inline-block;
+	margin: 15px;
+	min-width: 350px;
+	width: 31%;
+	max-width: 400px;
+}
+
+#AOZ{
+	box-shadow: 0px 0px 30px gold;
+}
+
+@media (max-width:767px) {
+	.lotto-container {
+		width: 424px;
+	}
+
+	.title {
+		width: 100%;
+		min-width: 424px;
+		text-align: left;
+	}
+
+	#AOZ{
+		margin-left: -14px;
+	}
+}
+
+/*footer */
+@media (max-width:767px) {
+	.footer {
+		min-width: 500px;
+	}
+}
+
+/*THY-Cards */
+#aozfooter{
+	width:100%;
+	display:block;
+	margin-top:10px;
+	margin-bottom:30px;
+}
+.card{
+	display:inline-grid;
+	width:30%;
+	margin-right:3px;
+	min-width:300px;
+	max-width:350px;
+	margin-bottom:8px;
+}
+.card-body{
+	font-size:18px;
+	height:100px;
+	white-space: nowrap;  
+	overflow: hidden;
+	text-overflow: ellipsis; 
+}
+@media (max-width:767px){
+	.card{
+		margin-left: -15px;
+		width:100%;
+		min-width:424px;
+	}
+}
+
+/*Animation */
+.attention2 {
+	animation: attention2 1s linear infinite;
+}
+
+@keyframes attention2 {
+	0%{
+		border-radius:15px;
+		color:rgb(118, 255, 221);
+	}
+	75% {
+		border-radius:15px;
+		color:lightseagreen;
+
+	}
+	100%{
+		border-radius:15px;
+		color:rgb(118, 255, 221);
+	}
+}
+
+.attention {
+	animation: attention 1s linear infinite;
+}
+
+@keyframes attention {
+	0%{
+		border-radius:5px;
+		color:rgb(225, 255, 118);		
+	}
+	75% {
+		
+		text-shadow: 0px 0px 50px red;
+		border-radius:15px;
+		color:gold;
+
+	}
+	100%{
+		border-radius:15px;
+		color:rgb(225, 255, 118);
+	}
+}
+
+.blink {
+	animation: blinker 1s linear infinite;
+	color: blue;
+	background: orange;
+	border-radius: 2px;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+
+.sticky {
+	position: fixed;
+	top: 115px;
+	z-index: 1000;
+}
+
+
+  

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated on Fri, 07 Aug 2020 16:25:39 +0800 -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://4dyes.com/rss.php" rel="self" type="application/rss+xml" />
+    <title>Live 4D Results: Magnum 4D, Sports ToTo, Damacai, Perdana, Good4d, GrandDragon</title>
+    <link>https://4dyes.com/</link>
+    <description>Malaysia latest 4D, 5D, 6D &amp; Jackpot results, Live from Magnum, Sports ToTo &amp; Damacai at 4dyes.com - 4D Information portal</description>
+    <language>en-us</language>
+    <pubDate>Mon, 27 Aug 2018 17:24:42</pubDate>
+    <lastBuildDate>Mon, 27 Aug 2018 17:24:42</lastBuildDate>
+    <generator>v5</generator>
+    <docs>https://4dyes.com/en/rss</docs>
+    <item>
+      <title>-</title>
+      <description>
+
+
+
+
+
+
+  new Twitch.Player(&quot;twitch-embed&quot;, {
+    width: 854,
+    height: 480,
+    channel: &quot;perdana4d&quot;
+  });
+</description>
+      <link>https://4dyes.com/en/perdana4d-live</link>
+      <pubDate>Fri, 03 Jul 2020 17:55:12</pubDate>
+    </item>
+    <item>
+      <description>Privacy Policy 
+                  4DYES built the 4DYES app as
+                  a Free app. This SERVICE is provided by
+                  4DYES at no cost and is intended for use as
+                  is.
+                 
+                  This pag...</description>
+      <link>https://4dyes.com/en/policy</link>
+      <pubDate>Tue, 02 Jun 2020 09:55:28</pubDate>
+    </item>
+    <item>
+      <title>Daily 4D Lotto Result - Good4D  | GDlotto | Perdana | Lucky Hari Hari</title>
+      <description>
+$$ Good4D, Perdana, Lucky $$
+Mega Jackpot USD55,260.00
+More then MYR 238,225.00  
+
+
+[FUNC:result]
+title = ;
+live = 1;
+timer = 10000;
+domain = 4D Live Results;
+class=G,H,N,R;
+[/FUNC]
+
+</description>
+      <link>https://4dyes.com/en/good4d-gdlotto-perdana-lucky</link>
+      <pubDate>Wed, 06 May 2020 13:02:39</pubDate>
+    </item>
+    <item>
+      <title>GOOD4D - Best 4D result</title>
+      <description>
+[FUNC:result]
+title = ;
+live = 1;
+timer = 10000;
+domain = 4D Live Results;
+class=G;
+[/FUNC]
+
+</description>
+      <link>https://4dyes.com/en/good4d</link>
+      <pubDate>Tue, 03 Dec 2019 17:26:25</pubDate>
+    </item>
+    <item>
+      <title>API Widget - 4D result api ads free</title>
+      <description>
+
+
+
+
+
+
+if you like 4DYES, pls help us to like and share 4DYES to your facebook. Your support let us can do better. Thanks
+Apple Apps[ click here download ]
+Android Apps[ click here download ]
+
+
+
+
+Just copy and paste in your website
+
+
+
+
+...</description>
+      <link>https://4dyes.com/en/api-widget</link>
+      <pubDate>Tue, 19 Nov 2019 12:39:08</pubDate>
+    </item>
+    <item>
+      <title>Download 4DYES Mobile Apps</title>
+      <description>
+
+
+
+
+
+
+if you like 4DYES, pls help us to like and share 4DYES to your facebook. Your support let us can do better. Thanks
+Fast &amp; Real Time update!
+if you like 4DYES, pls help us to like and share 4DYES to your facebook. Your support let us can do...</description>
+      <link>https://4dyes.com/en/download-app</link>
+      <pubDate>Fri, 05 Jun 2020 11:48:47</pubDate>
+    </item>
+    <item>
+      <description>
+
+
+Power by 4DYES.COM
+</description>
+      <link>https://4dyes.com/en/test</link>
+      <pubDate>Tue, 19 Nov 2019 12:58:00</pubDate>
+    </item>
+    <item>
+      <description>[FUNC:result]
+title = ;
+live = 1;
+timer = 10000;
+domain = 4D Live Results;
+class=M,P,T,S,B,K,W,H,N,R;
+fbpage =;
+[/FUNC]
+
+
+.navbar , .footer-link , .footer {display:none !important;}
+</description>
+      <link>https://4dyes.com/en/for-leocity9</link>
+      <pubDate>Fri, 05 Jul 2019 15:16:23</pubDate>
+    </item>
+    <item>
+      <title>Latest GDlotto, Perdana, Lucky Hari Hari &amp; Good4d. Live</title>
+      <description>
+$$ Good4D, Perdana, Lucky $$
+Mega Jackpot USD55,260.00
+More then MYR 238,225.00  
+
+
+[FUNC:result]
+title = ;
+live = 1;
+timer = 10000;
+domain = 4D Live Results;
+class=H,N,G,R;
+[/FUNC]
+
+</description>
+      <link>https://4dyes.com/en/gdlotto-perdana-lucky</link>
+      <pubDate>Wed, 06 May 2020 13:07:39</pubDate>
+    </item>
+    <item>
+      <title>-</title>
+      <description>[FUNC:social_icon]theme=flat;iconSize=12;[/FUNC]
+[FUNC:result]
+title = ;
+live = 0;
+timer = 10000;
+domain = 4D Live Results
+[/FUNC]</description>
+      <link>https://4dyes.com/en/history</link>
+      <pubDate>Mon, 22 Oct 2018 18:02:23</pubDate>
+    </item>
+  </channel></rss>
